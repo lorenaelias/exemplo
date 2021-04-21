@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    font-size: 20px;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    
+    background: #222;
+    color: #f3f3f3;
+}
+
+nav {
+    background: #ffffff;
+    padding: 2px 0;
+    box-shadow: 0 0 8px rgba(60, 60, 60, 0.8);
+}
+
+nav ul {
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul li:not(:last-child) {
+    border-right: .5px solid #222;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+
+nav button {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin: 0;
+    font-weight: 600;
+}
+
+nav button:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button.buttonActive {
+    font-weight: bold;
+    color: blue;
+}
+
+.tabs section {
+    display: none;
+}
+
+section.tabActive {
+    display: block;
+}
+
+main section {
+    width: 60%;
+    background: #fff;
+
+    margin: 10px auto;
+    padding: 10px 25px;
+    box-shadow: 0 0 8px rgba(60, 60, 60, 0.6);
+    
+    display: none;
+}
+
+section h2 {
+    color: rgb(12, 22, 163);
+    text-align: center;
+}
